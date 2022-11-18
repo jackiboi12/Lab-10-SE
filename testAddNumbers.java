@@ -9,8 +9,8 @@ public class testAddNumbers {
 	@Test
 	public void test() {
 		jUnitFunctions junit = new jUnitFunctions();
-		int sum = junit.addNumbers(100, 22);
-		assertEquals(90, sum);
+		int sum = junit.addNumbers(500,100);
+		assertEquals(100, sum);
 	}
 
 }
