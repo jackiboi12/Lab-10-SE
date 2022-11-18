@@ -9,7 +9,7 @@ public class testAddNumbers {
 	@Test
 	public void test() {
 		jUnitFunctions junit = new jUnitFunctions();
-		int sum = junit.addNumbers(52, 38);
+		int sum = junit.addNumbers(100, 22);
 		assertEquals(90, sum);
 	}
 
